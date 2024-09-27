@@ -1,0 +1,104 @@
+body{
+	margin:0;
+font-weight: normal;
+text-align:center;
+ }
+
+.first{
+	display:flex;
+	background:#386383;
+	gap:54%;
+	font-family: Josefin Sans;
+	justify-content:left;
+	}
+.btn{
+	background:#386383;
+	color:white;
+	border:none;
+	font-size:0.969rem;
+	font-weight:bold;
+}
+.sep{
+	display:flex;
+	gap:12%;
+	flex-wrap:wrap;
+}
+h1{
+	margin-left:6%;
+	color:white;
+	font-family:Sans-serif;
+	font-size:37px;
+}
+.search{
+	margin-left:413px;
+	margin-right:27px;
+	display:flex;
+	justify-content:space-evenly;
+	
+	
+	
+}
+#shadow{
+	text-shadow:7px 7px 6px #003049;
+}
+.first > div {
+	flex-grow: 1; /* Ensures items take up available space */
+	text-align: left;
+}
+h2{
+	text-align:center;
+	font-family:Sans-serif;
+	font-size:28.5px;
+	color:#223b51;
+}
+.inp{
+	border:2px solid #386383;
+	border-radius:20px;
+	padding-left:3px;
+	margin-top:25px;
+	margin-bottom:2.5px;
+	height:21px;
+	width:auto;
+}
+.image{
+	text-align:left;
+	font-family:Sans-serif;
+	color:#fefefe;
+	padding-bottom:5px;
+	border:4px solid #386383;
+	
+	background:#386383;
+}
+.dogpic{
+width:127px;}
+.name{
+	margin:0;
+	
+}
+.age{
+	margin:0;
+	font-style:italic;
+	font-size:13px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+	margin-top:3.5px;
+	text-align:center;
+}
+.firstrow{
+	display:flex;
+	justify-content:space-evenly;
+	margin-bottom:70px;
+	margin-top:15px;
+	
+}
+.secondrow{
+	display:flex;
+	justify-content:space-evenly;
+	margin-bottom:250px;
+}
+.btn-link{
+	margin-top:36.9px;
+}
